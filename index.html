@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/sorteio.png">
+    <title>Sorteio</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Gerador de números para sorteio</h1>
+      <img src="./images/sorteio.jpg" alt="">
+  
+    </div>
+
+    <div id="raffle">
+      <h1>Insira quantos números terá o seu sorteio</h1>
+      <p>Será sorteado algum número começando pelo 1, e terminando pelo número a sua escolha.</p>
+      <input type="number" id="np" step=none placeholder="Ex: 2000"> <br>
+      <button onclick="Modal.open(), sort()">Sortear!!!</button>
+    </div>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button id='close' onclick="Modal.close()" >x</button>
+        <h1>O número sorteado foi: </h1>
+        <p id="sorted"></p>
+        <button id='resort' onclick='resort()'>Sortear novamente</button>
+      </div>
+    </div>
+
+    <footer>
+      <h1>Aplicativo desenvolvido por Sandro Henrique</h1> 
+      <a href="https://github.com/sandrohmt">
+      <img src="./images/icons8-github-24.png" alt="" width="48px"> </a> <br>
+      <a href="https://br.freepik.com/vetores/dom">Dom vetor criado por vectorjuice - br.freepik.com</a> <br>
+      <a href="https://icons8.com/icon/106564/github">GitHub icon by Icons8</a>
+  </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
