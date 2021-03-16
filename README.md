@@ -17,5 +17,8 @@ Uma página web onde é possível realizar sorteios de qualquer número a sua es
 
 ## Para ver o projeto você mesmo: 
 
-https://sandrohmt.github.io/Churrascometro/
+https://sandrohmt.github.io/Sorteador/
 
+## Contato:
+
+Email: sandrohmt@gmail.com
