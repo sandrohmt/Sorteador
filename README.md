@@ -13,7 +13,7 @@ Uma página web onde é possível realizar sorteios de qualquer número a sua es
 
 ## Para mobile:
 
-https://user-images.githubusercontent.com/78877045/111241081-2b8e2500-85db-11eb-88f3-c248619aec58.mp4
+![Sorteio - Opera 2021-03-15 22-02-20](https://user-images.githubusercontent.com/78877045/111250256-c989eb80-85eb-11eb-9655-6e09cd58f847.gif)
 
 ## Para ver o projeto você mesmo: 
 
